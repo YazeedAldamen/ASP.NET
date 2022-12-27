@@ -16,12 +16,19 @@ namespace tasks_27_12
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Response.Write("<script>alert('Registered');</script>");
+
+            if (Page.IsValid)
+            {
+                Response.Write("<script>alert('Registered');</script>");
+            }
         }
 
-        protected void Button2_Click(object sender, EventArgs e)
+            protected void Button2_Click(object sender, EventArgs e)
         {
-            Response.Write("<script>alert('Logged In');</script>");
+            if (Page.IsValid)
+            {
+                Response.Write("<script>alert('Logged In');</script>");
+            }
         }
-    }
+        }
 }
