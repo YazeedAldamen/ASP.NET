@@ -19,7 +19,9 @@ namespace tasks_27_12
 
             if (Page.IsValid)
             {
-                Response.Write("<script>alert('Registered');</script>");
+                //Response.Write("<script>alert('Registered');</script>");
+                ClientScript.RegisterClientScriptBlock(this.GetType(), "alert", "swal('Good job!', 'You are Registered!', 'success')", true);
+
             }
         }
 
@@ -27,7 +29,10 @@ namespace tasks_27_12
         {
             if (Page.IsValid)
             {
-                Response.Write("<script>alert('Logged In');</script>");
+                //Response.Write("<script>alert('Logged In');</script>");
+                ClientScript.RegisterClientScriptBlock(this.GetType(), "alert", "swal('Good job!', 'You are Logged In!', 'success')", true);
+                
+
             }
         }
         }
