@@ -21,7 +21,7 @@ namespace tasks_27_12
             {
                 //Response.Write("<script>alert('Registered');</script>");
                 ClientScript.RegisterClientScriptBlock(this.GetType(), "alert", "swal('Good job!', 'You are Registered!', 'success')", true);
-
+                
             }
         }
 
