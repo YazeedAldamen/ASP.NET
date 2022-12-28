@@ -23,7 +23,7 @@ namespace _28_12_task
             con.Close();
 
             con.Open();
-            string table = "<table class='table table-striped'> <tr><th>ID</th><th>Comment</th></tr>";
+            string table = "<table class='table table-dark table-striped'> <tr><th>ID</th><th>Comment</th></tr>";
 
             SqlCommand com2 = new SqlCommand("select * from comments", con);
             SqlDataReader rdr = com2.ExecuteReader();
