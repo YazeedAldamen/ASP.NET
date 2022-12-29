@@ -19,7 +19,9 @@
             <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ErrorMessage="*" ControlToValidate="password" ValidationExpression="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$" ForeColor="Red">*</asp:RegularExpressionValidator>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="*" ForeColor="Red" ControlToValidate="password">*</asp:RequiredFieldValidator>
              <br />
-            <asp:CheckBox ID="CheckBox1" runat="server" />
+            <asp:CheckBox ID="CheckBox1" runat="server" />&nbsp;
+            <label>Remember Me</label>
+            <br />
             <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
         </div>
     </form>
