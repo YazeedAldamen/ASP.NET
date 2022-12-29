@@ -26,7 +26,8 @@ namespace task_29_12
                 HttpCookie time = Request.Cookies["time"];
                 colors.Text = DateTime.Now.ToString();
                 string col = time["color"];
-            colors.ForeColor = System.Drawing.Color.FromName(col);
+                colors.ForeColor = System.Drawing.Color.FromName(col);
+                
             }
         }
 
@@ -34,6 +35,7 @@ namespace task_29_12
         {
             HttpCookie time = new HttpCookie("time");
             time.Values["color"] = DropDownList1.SelectedValue.ToString();
+            time.Expires = DateTime.Now.AddDays(1);
             Response.Cookies.Add(time);
         }
     }
