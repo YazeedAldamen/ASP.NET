@@ -29,7 +29,7 @@
                         <asp:ListItem Text="Blue" Value="Blue" />
                         <asp:ListItem Text="Green" Value="Green" />
                     </asp:DropDownList>
-        <asp:Timer ID="Timer1" runat="server" Interval="1000" OnTick="Timer1_Tick"></asp:Timer>
+        <asp:Timer ID="Timer1" runat="server" Interval="100" OnTick="Timer1_Tick"></asp:Timer>
     </form>
 </body>
 </html>

@@ -20,14 +20,12 @@ namespace task_29_12
 
         protected void Timer1_Tick(object sender, EventArgs e)
         {
-            
-            
-            if ( Request.Cookies["time"] != null) {
+            if (Request.Cookies["time"] != null)
+            {
                 HttpCookie time = Request.Cookies["time"];
                 colors.Text = DateTime.Now.ToString();
                 string col = time["color"];
                 colors.ForeColor = System.Drawing.Color.FromName(col);
-                
             }
         }
 
