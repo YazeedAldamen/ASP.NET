@@ -39,7 +39,6 @@ namespace _28_12_task
             lbl.Text = table;
             res.Controls.Add(lbl);
             ScriptManager.RegisterStartupScript(this, GetType(), "Popup", "successalert();", true);
-
         }
     }
 }
