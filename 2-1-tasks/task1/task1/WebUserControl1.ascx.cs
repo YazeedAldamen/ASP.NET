@@ -91,7 +91,10 @@ namespace task1
             cookie.Values["vote"] = "voted";
             cookie.Expires = DateTime.Now.AddDays(30);
             Response.Cookies.Add(cookie);
+            //results.Visible = true;
+            //radio.Visible = false;
             
+
         }
 
 

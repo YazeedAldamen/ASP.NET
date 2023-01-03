@@ -27,19 +27,19 @@
     </div>
     <br />
     <div class="progress">
-        <div class="progress-bar" role="progressbar"  aria-valuemin="0" aria-valuemax="100" id="vgood" runat="server" ></div>
+        <div class="progress-bar bg-secondary" role="progressbar"  aria-valuemin="0" aria-valuemax="100" id="vgood" runat="server" ></div>
     </div>
     <br />
     <div class="progress">
-        <div class="progress-bar" role="progressbar"  aria-valuemin="0" aria-valuemax="100" id="good" runat="server" ></div>
+        <div class="progress-bar bg-info" role="progressbar"  aria-valuemin="0" aria-valuemax="100" id="good" runat="server" ></div>
     </div>
     <br />
     <div class="progress">
-        <div class="progress-bar" role="progressbar"  aria-valuemin="0" aria-valuemax="100" id="fair" runat="server" ></div>
+        <div class="progress-bar bg-danger" role="progressbar"  aria-valuemin="0" aria-valuemax="100" id="fair" runat="server" ></div>
     </div>
     <br />
-    <div class="progress">
-        <div class="progress-bar" role="progressbar"  aria-valuemin="0" aria-valuemax="100" id="poor" runat="server" ></div>
+    <div class="progress" >
+        <div class="progress-bar bg-success" role="progressbar"  aria-valuemin="0" aria-valuemax="100" id="poor" runat="server"  ></div>
     </div>
 
 
